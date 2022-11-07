@@ -10,7 +10,7 @@ function AppNavbar(){
     return(
         <Navbar fixed='top' bg="light" expand="lg">
             <Container>
-                <Link to={'/'} className='navbar-brand'>Cart-App</Link>
+                <Link to={'/'} className='navbar-brand'>CartApp</Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
