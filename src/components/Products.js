@@ -15,7 +15,7 @@ function Products(){
         dispatch(fetchProducts());
         console.log(products);
         return () => {
-            // cleanup
+            // cleanup 
         };
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
