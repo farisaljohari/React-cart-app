@@ -17,6 +17,7 @@ function Products(){
         return () => {
             // cleanup
         };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     return(
         <Container className='py-5'>
